@@ -5,4 +5,9 @@
 * styled with sass
 * written in coffeescript
 * ready to compile with grunt
-* packed with nodemon `(npm start)`
+* packed with nodemon
+* needs node version 8
+
+#### Run
+* `npm install`
+* `npm start`
