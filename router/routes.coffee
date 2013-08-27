@@ -1,7 +1,6 @@
-mongoose = require "mongoose"
 config = require "../config/config.coffee"
-
 if config.site.db?
+  mongoose = require "mongoose"
   mongoose.connect config.site.db
 
 exports.routes =

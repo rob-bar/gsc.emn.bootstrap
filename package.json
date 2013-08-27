@@ -1,6 +1,6 @@
 {
-  "author": "Robbie Bardijn",
-  "name": "Portfolio-2013",
+  "author": "Your name",
+  "name": "projectname",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -14,10 +14,9 @@
     "jade": "*",
     "mongoose": "*",
     "async": "*",
-    "grunt": "~0.4.1",
     "nodemon": "*",
     "underscore": "*",
-    "oauth": "*",
+    "grunt": "~0.4.1",
     "grunt-contrib-compass": "*",
     "grunt-contrib-coffee": "*",
     "grunt-contrib-jshint": "*",
