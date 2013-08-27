@@ -1,0 +1,31 @@
+{
+  "author": "Robbie Bardijn",
+  "name": "Portfolio-2013",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.coffee"
+  },
+  "dependencies": {
+    "matchdep": "*"
+  },
+  "devDependencies": {
+    "express": "*",
+    "jade": "*",
+    "mongoose": "*",
+    "async": "*",
+    "grunt": "~0.4.1",
+    "nodemon": "*",
+    "underscore": "*",
+    "oauth": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
