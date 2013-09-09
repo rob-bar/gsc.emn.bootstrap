@@ -1,6 +1,6 @@
 require.config
   deps: ['base']
-  baseUrl: "/assets/js/"
+  baseUrl: "/js/"
   paths:
     jquery: 'vendor/jquery'
     underscore: 'vendor/underscore'
