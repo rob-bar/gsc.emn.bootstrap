@@ -1,20 +1,8 @@
 (function() {
-  $(function() {
-    _.each($(".repoinfo"), function(repo) {
-      if ($(repo).text().length > 18) {
-        return $(repo).addClass("smaller");
-      }
-    });
-    return $(".work").mousemove(function(e) {
-      var pos, relX, relY;
-      pos = $(e.currentTarget).offset();
-      relX = e.pageX - pos.left;
-      return relY = e.pageY - pos.top;
+  define(['backbone', 'router', 'site'], function(Backbone, AppRouter, site) {
+    return $(function() {
+      return site.router = new AppRouter();
     });
   });
 
 }).call(this);
-
-/*
-//@ sourceMappingURL=base.js.map
-*/

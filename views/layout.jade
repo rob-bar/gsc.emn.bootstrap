@@ -17,11 +17,7 @@ body
   div#main
     block content
 
-  script(src='/js/vendor/jquery.js')
-  script(src='/js/vendor/underscore.js')
-  script(src='/js/vendor/backbone.js')
-  script(src='/js/vendor/async.js')
-  script(src='/js/base.js')
+  script(src='/js/vendor/require.js', data-main='/assets/js/build')
 
   script
     var _gaq = [['_setAccount','xxxxxxxxxxxxx'], ['_trackPageview']];
