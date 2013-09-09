@@ -11,3 +11,9 @@
 #### Run
 * `npm install`
 * `npm start`
+
+#### backbonefrontend branch
+* front end configured with requirejs and Backbone
+* `npm install`
+* `npm start`
+* `grunt`
