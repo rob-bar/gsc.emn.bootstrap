@@ -1,7 +1,7 @@
 (function() {
-  define(['backbone', 'router', 'site'], function(Backbone, AppRouter, site) {
+  define(['backbone', 'jquery', 'router', 'site', 'helper'], function(Backbone, $, AppRouter, site, helper) {
     return $(function() {
-      return site.router = new AppRouter();
+      return helper.get_template('first', {});
     });
   });
 

@@ -1,7 +1,4 @@
-define ['backbone', 'router', 'site'],
-(Backbone, AppRouter, site) ->
-
+define ['backbone', 'jquery', 'router', 'site', 'helper'],
+(Backbone, $, AppRouter, site, helper) ->
   $ ->
-    site.router = new AppRouter()
-    # Backbone.emulateJSON = true
-    # Backbone.emulateHTTP = true
+    helper.get_template 'first', {}
