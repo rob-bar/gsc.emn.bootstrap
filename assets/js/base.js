@@ -1,7 +1,9 @@
 (function() {
-  define(['backbone', 'router', 'site'], function(Backbone, AppRouter, site) {
+  define(['backbone', 'router', 'site', 'helper'], function(Backbone, AppRouter, site, helper) {
     return $(function() {
-      return site.router = new AppRouter();
+      return $('body').html(helper.get_template("first", {
+        value: "node template engine"
+      }));
     });
   });
 

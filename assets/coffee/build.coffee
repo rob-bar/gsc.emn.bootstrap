@@ -6,9 +6,13 @@ require.config
     underscore: 'vendor/underscore'
     backbone: 'vendor/backbone'
     async: 'vendor/async'
+    templates: '/templates/templates'
+    jade: 'vendor/jade'
   shim:
     underscore:
       exports: "_"
+    templates:
+      exports: "templates"
     backbone:
       deps: ['underscore', 'jquery']
       exports: 'Backbone'

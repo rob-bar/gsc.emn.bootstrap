@@ -18,6 +18,7 @@
     "underscore": "*",
     "grunt": "~0.4.1",
     "grunt-contrib-compass": "*",
+    "grunt-contrib-jade": "*",
     "grunt-contrib-coffee": "*",
     "grunt-contrib-jshint": "*",
     "grunt-contrib-concat": "*",
