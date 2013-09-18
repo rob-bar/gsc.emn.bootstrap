@@ -23,6 +23,8 @@
     "grunt-contrib-jshint": "*",
     "grunt-contrib-concat": "*",
     "grunt-contrib-uglify": "*",
+    "grunt-contrib-requirejs": "*",
+    "grunt-contrib-imagemin": "*",
     "grunt-contrib-watch": "*"
   },
   "engines": {
