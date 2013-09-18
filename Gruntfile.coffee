@@ -63,20 +63,6 @@ module.exports = (grunt) ->
         files:
           src: ['assets/js/base.js', 'app.js']
 
-    concat:
-      options:
-        stripBanners: true
-      dist:
-        src: '<%= vendorlibs %>',
-        dest: 'assets/js/app.js'
-
-    uglify:
-      app:
-        options:
-          sourceMap: 'assets/js/app.js.map' # the sourcemap
-        files:
-          'assets/js/app.min.js': ['assets/js/app.js']
-
     watch:
       app:
         files: ['assets/coffee/**/*.coffee']
@@ -89,7 +75,7 @@ module.exports = (grunt) ->
         tasks: ['compass']
 
   # Default task.
-  grunt.registerTask 'default', ['compass', 'coffee:app', 'jshint']
+  grunt.registerTask 'default', ['compass', 'coffee:app', 'jshint', 'jade']
 
   # deploy
-  grunt.registerTask 'deploy', ['compass', 'coffee:app', 'jshint', 'concat', 'uglify', 'imagemin', 'requirejs']
+  grunt.registerTask 'deploy', ['compass', 'coffee:app', 'jshint', 'jade', 'imagemin', 'requirejs']
